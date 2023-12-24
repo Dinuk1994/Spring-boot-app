@@ -7,5 +7,5 @@ import java.util.List;
 public interface InventoryService {
     List<Item> getAll();
 
-    void addItem();
+    void addItem(Item item);
 }

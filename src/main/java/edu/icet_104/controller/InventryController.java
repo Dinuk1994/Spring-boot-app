@@ -4,6 +4,8 @@ import edu.icet_104.dto.Item;
 import edu.icet_104.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -19,7 +21,8 @@ public class  InventryController {
         return  service.getAll();
 
     }
-    public void addItem(){
-        service.addItem();
+    @PostMapping
+    public void addItem(@RequestBody Item item){
+        service.addItem(item);
     }
 }

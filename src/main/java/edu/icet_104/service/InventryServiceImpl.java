@@ -17,9 +17,10 @@ public class InventryServiceImpl implements InventoryService{
         return itemList;
     }
 
-    @Override
-    public void addItem() {
 
+    @Override
+    public void addItem(Item item) {
+        itemList.add(item);
     }
 
 }
