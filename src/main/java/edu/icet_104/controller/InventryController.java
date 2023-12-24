@@ -1,6 +1,7 @@
 package edu.icet_104.controller;
 
 import edu.icet_104.dto.Item;
+import edu.icet_104.entity.ItemEntity;
 import edu.icet_104.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +18,7 @@ public class  InventryController {
     InventoryService service;
 
     @GetMapping("/get-item")
-    public List<Item> getAll(){
+    public Iterable<ItemEntity> getAll(){
         return  service.getAll();
 
     }
