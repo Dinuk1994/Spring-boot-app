@@ -13,3 +13,13 @@ m
 =src/main/java/edu/icet_104/service/InventryServiceImplV2.java,0\2\0237783053058a6587a3e2174d8ec805b8a7340d
 h
 8src/main/java/edu/icet_104/service/InventoryService.java,e\4\e4cd17460e1343a9dc03e5adde4a389b1c00223b
+X
+(src/main/java/edu/icet_104/dto/Item.java,b\3\b39ea9e38de293c4b2d566ceeff17239f6cd900e
+Å
+Q.idea/sonarlint/securityhotspotstore/b/3/b39ea9e38de293c4b2d566ceeff17239f6cd900e,2\7\27fb3f39a0b90602249337588ea9974d34e69052
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+w
+G.idea/sonarlint/issuestore/b/3/b39ea9e38de293c4b2d566ceeff17239f6cd900e,1\1\117ff47505ec56b0cd0c5632670954b832d6341c
