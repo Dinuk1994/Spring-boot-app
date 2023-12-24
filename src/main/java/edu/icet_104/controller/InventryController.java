@@ -16,12 +16,12 @@ public class  InventryController {
     @Autowired
     InventoryService service;
 
-    @GetMapping("/inventory")
+    @GetMapping("/get-item")
     public List<Item> getAll(){
         return  service.getAll();
 
     }
-    @PostMapping
+    @PostMapping("/post-item")
     public void addItem(@RequestBody Item item){
         service.addItem(item);
     }
